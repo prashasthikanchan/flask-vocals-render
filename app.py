@@ -8,6 +8,9 @@ from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
 from firebase import firebase
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 from flask import Flask, jsonify, request
 firebase = firebase.FirebaseApplication('https://vocals-e4589-default-rtdb.asia-southeast1.firebasedatabase.app/', None)
