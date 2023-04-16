@@ -110,7 +110,7 @@ app = Flask(__name__)
 def home():
     return 'Book your appointments'
 
-@app.route('/electrician/<name>', methods= ['GET']) 
+@app.route('/electrician/<name>') 
 def electrician(name):
     
     
