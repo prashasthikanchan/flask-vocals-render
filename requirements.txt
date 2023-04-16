@@ -2,7 +2,7 @@ Flask
 Gunicorn
 numpy
 nltk
-tensorflow.keras.models
+tensorflow
 pyttsx3
 firebase
 json
