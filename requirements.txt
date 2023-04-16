@@ -2,6 +2,9 @@ Flask
 Gunicorn
 numpy
 nltk
-tensorflow
+tensorflow.keras.models
 pyttsx3
 firebase
+json
+pickle
+random
