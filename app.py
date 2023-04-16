@@ -58,8 +58,7 @@ def get_response(intents_list,intents_json):
 def firebase_response(entry):
     result = firebase.get('/prash/-NPmLDGT5Mvob4GFXAe_', None)
     res1 = result[entry]
-    engine = pyttsx3.init()
-    engine.say(res1)
+    
     return res1
     
 def chatbot_response(msg,model,intents,words,classes):
@@ -102,9 +101,7 @@ def chatbot_response(msg,model,intents,words,classes):
             entry = ''
             return firebase_response(entry)
         else:
-            engine = pyttsx3.init()
-            engine.say(res)
-            engine.runAndWait()
+            
             return res
 
 app = Flask(__name__)
