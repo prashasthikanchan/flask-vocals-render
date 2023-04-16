@@ -2,8 +2,6 @@ Flask
 Gunicorn
 numpy
 nltk
-pickle
-random
 tensorflow
 pyttsx3
 firebase
