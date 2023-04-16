@@ -1,6 +1,6 @@
 {"intents": [
   {"tag": "greetings",
-  "patterns": ["Hello","hello","hey","Hi","hi","good day","Greetings","good afternoon","good morning","how can I help you?","how can I assist you?","what can I do for you?","Hey there", "Hi, how can I assist you?"]
+  "patterns": ["Hello","hello","hey","Hi","hi","good day","Greetings","good afternoon","good morning","how can I help you?","how can I assist you?","what can I do for you?","Hey there", "Hi, how can I assist you?"],
   "responses": ["Hello! Could you please come to our home as there is an electrical issue?","Hey! There is an electrical issue in our home. Can you please come?","There's an electrical issue in our house. Can you please come?"]
   },
 {"tag": "issue",
